@@ -266,7 +266,7 @@
   </style>
 </head>
 <body>
-  <h1>🐱 PET CONTROLLER</h1>
+  <h1> PET CONTROLLER</h1>
   <p class="subtitle">Remote Control Panel v1.0</p>
 
   <div class="status-bar">
@@ -298,10 +298,10 @@
     <div class="panel">
       <div class="panel-title">▸ ACTIONS</div>
       <div class="actions">
-        <button class="btn pink" onclick="sendCmd({type:'happy'})">😸 Happy</button>
-        <button class="btn" onclick="sendCmd({type:'dance'})">🕺 Dance</button>
-        <button class="btn" onclick="sendCmd({type:'sleep'})">💤 Sleep</button>
-        <button class="btn danger" onclick="sendCmd({type:'shake'})">😾 Annoy</button>
+        <button class="btn pink" onclick="sendCmd({type:'happy'})"> Love</button>
+        <button class="btn" onclick="sendCmd({type:'dance'})"> Dance</button>
+        <button class="btn" onclick="sendCmd({type:'sleep'})"> Sleep</button>
+        <button class="btn danger" onclick="sendCmd({type:'shake'})"> Annoy</button>
       </div>
     </div>
 
@@ -339,7 +339,7 @@
       const text = document.getElementById('status-text');
       if (petOnline) {
         dot.className = 'status-dot online';
-        text.textContent = '🐱 Pet is online and ready!';
+        text.textContent = 'Pet is online and ready!';
         log('Pet connected!', 'success');
       } else {
         dot.className = 'status-dot offline';
